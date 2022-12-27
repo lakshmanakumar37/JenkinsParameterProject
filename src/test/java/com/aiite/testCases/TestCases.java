@@ -2,7 +2,9 @@ package com.aiite.testCases;
 
 import org.testng.annotations.Test;
 
-public class TestCases {
+import com.aiite.base.BaseClass;
+
+public class TestCases extends BaseClass {
 	@Test
 	public void testCase1() {
 		

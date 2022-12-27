@@ -28,7 +28,8 @@ public class BaseClass {
 		}
 		
 		driver.manage().window().maximize();
-		driver.get("url");
+		driver.get(System.getProperty("URL"));
+		driver.get("https://www.vectonemobile.co.uk/");
 	}
 	
 	@AfterMethod
